@@ -30,7 +30,6 @@ class Player(models.Model):
 
                 playerobj = Players.objects.create(username=username, age=age , phoneno=phoneno, email=email, address=address)
                 playerobj.save()
-
                 return 1
             return 0
 
